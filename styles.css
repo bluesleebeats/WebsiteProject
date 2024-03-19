@@ -1,0 +1,26 @@
+/*comment*/
+/* setting the values */
+:root {
+    --main-font: arial, helvetica, sans-serif;
+    /* CSS HEX */
+    --space-cadet: #141b41ff;
+    --green-blue: #306bacff;
+    --cornflower-blue: hsl(218, 76%, 68%);
+    --jordy-blue: hsl(217, 46%, 88%);
+    --tropical-indigo: #918ef4ff;
+
+
+}
+
+body {
+    /* here we use the main-font */
+    font-family: var(--main-font);
+    background-color: var(--jordy-blue);
+}
+.main-header{
+background-color: var(--green-blue);
+}
+.logo{
+    max-width: 80px;
+    padding: 10px;
+}
