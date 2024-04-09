@@ -18,6 +18,16 @@
     <body><h1>Alex's Website</h1>
         <header class="main-header">
             <img src="assets/accusoft-brands.png" alt="accusoft-brand logo" class="logo">
+            <!-- search form -->
+            <form class="search-form" id="search" action="/search" method="get">
+                <!-- we want to hide this label for everyone except people with screen readers -->
+                <label for="search=input">Search Query</label>
+                <!-- <input id="search-input" type="password"> -->
+                <!-- <input id="search-input" type="text"> -->
+                <!-- look at these differt type options in w3schools in video at 2:10 -->
+                <input id="search-input" type="search" placeholder="search for a product" name="query">
+                <button>Search</button>
+            </form>
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
             <a href="contact.html">Contact</a>

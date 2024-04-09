@@ -19,6 +19,9 @@ body {
 }
 .main-header{
 background-color: var(--green-blue);
+display: flex;
+flex-direction: row;
+justify-content: space-between;
 }
 .logo{
     max-width: 80px;
