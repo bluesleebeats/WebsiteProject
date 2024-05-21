@@ -4,29 +4,35 @@
     --main-font: arial, helvetica, sans-serif;
     /* CSS HEX */
     /* the -- allows it to be used throughout the website, like a function */
-    --space-cadet: #141b41ff;
-    --green-blue: #306bacff;
-    --cornflower-blue: hsl(218, 76%, 68%);
-    --jordy-blue: hsl(217, 46%, 88%);
-    --tropical-indigo: #918ef4ff;
-
+/* CSS HSL */
+--snow: hsla(15, 50%, 97%, 1);
+--cambridge-blue: hsla(153, 15%, 61%, 1);
+--english-violet: hsla(270, 18%, 27%, 1);
+--drab-dark-brown: hsla(66, 25%, 23%, 1);
+--cal-poly-green: hsla(143, 34%, 24%, 1);
 
 }
 
 body {
     /* here we use the main-font */
     font-family: var(--main-font);
-    background-color: var(--jordy-blue);
+    background-color: var(--cambridge-blue);
 }
 .main-header{
-background-color: var(--green-blue);
+background-color: var(--english-violet);
 /* display: flex;
 flex-direction: row;
 justify-content: space-between; */
 display: grid;
 grid-template-columns: auto 1fr auto;
 }
+main-navigation a {
+    color: var(--english-violet);
+}
 .logo{
     max-width: 80px;
     padding: 10px;
+}
+.logo-link {
+    grid-row: span 2
 }
