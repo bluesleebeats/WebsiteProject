@@ -1,8 +1,9 @@
 /*comment*/
-/* setting the values */
+/* setting the values :root makes it global so it can be used anywhere */
 :root {
     --main-font: arial, helvetica, sans-serif;
     /* CSS HEX */
+    /* the -- allows it to be used throughout the website, like a function */
     --space-cadet: #141b41ff;
     --green-blue: #306bacff;
     --cornflower-blue: hsl(218, 76%, 68%);
@@ -19,9 +20,11 @@ body {
 }
 .main-header{
 background-color: var(--green-blue);
-display: flex;
+/* display: flex;
 flex-direction: row;
-justify-content: space-between;
+justify-content: space-between; */
+display: grid;
+grid-template-columns: auto 1fr auto;
 }
 .logo{
     max-width: 80px;
