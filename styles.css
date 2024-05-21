@@ -17,6 +17,7 @@ body {
     /* here we use the main-font */
     font-family: var(--main-font);
     background-color: var(--cambridge-blue);
+    margin: 0px;
 }
 .main-header{
 background-color: var(--english-violet);
@@ -25,9 +26,38 @@ flex-direction: row;
 justify-content: space-between; */
 display: grid;
 grid-template-columns: auto 1fr auto;
+grid-template-rows: auto auto;
 }
-main-navigation a {
-    color: var(--english-violet);
+.main-navigation a {
+    color: var(--snow);
+    text-decoration: none;
+    padding: 1em;
+}
+.main-navigation a:hover{
+    text-decoration: underline;
+}
+.main-navigation {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    align-self: end;
+    display: flex;
+    flex-direction: row;
+}
+.user-navigation a {
+ color: var(--snow);
+ text-decoration: none;
+ padding: 1em;
+}
+.user-navigation a:hover{
+    text-decoration: underline;
+}
+.user-navigation {
+    grid-column-start: 3;
+    grid-row-start: 2;
+    align-self: end;
+    display: flex;
+    flex-direction: row;
+    
 }
 .logo{
     max-width: 80px;
@@ -36,3 +66,32 @@ main-navigation a {
 .logo-link {
     grid-row: span 2
 }
+.search-form{
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    min-width: 45vw;
+    margin-top: 1em;
+}
+.search-input {
+    flex:1;
+    padding:0.8em;
+    border-radius: 5px 0px 0px 5px;
+    border-width: 0px;
+}
+.search-button {
+    padding: 0.8em;
+    border-radius: 0px 5px 5px 0px;
+    border-width: 0px;
+    background-color: var(--drab-dark-brown);
+    color: var(--snow)
+}
+
+.sr-only {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+    }

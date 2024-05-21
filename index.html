@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <h1>Alex's Website</h1>
+    <!-- <h1>Alex's Website</h1> -->
     <header class="main-header">
         <a href="index.html" class="logo-link">
         <img src="assets/TipToe Soles_Logo_colour.png" alt="accusoft-brand logo" class="logo">
@@ -25,12 +25,12 @@
         <!-- search form -->
         <form class="search-form" id="search" action="/search" method="get">
             <!-- we want to hide this label for everyone except people with screen readers -->
-            <label for="search=input">Search Query</label>
+            <label for="search=input" class="sr-only">Search Query</label>
             <!-- <input id="search-input" type="password"> -->
             <!-- <input id="search-input" type="text"> -->
             <!-- look at these differt type options in w3schools in video at 2:10 -->
-            <input id="search-input" type="search" placeholder="search for a product" name="query">
-            <button>Search</button>
+            <input id="search-input" type="search" class="search-input" placeholder="search for a product" name="query">
+            <button type="submit" class="search-button">Search</button>
         </form>
         <nav class="main-navigation">
             <a href="index.html">Home</a>
