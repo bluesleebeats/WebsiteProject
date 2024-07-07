@@ -2,17 +2,17 @@
 /* setting the values */
 :root {
     --main-font: arial, helvetica, sans-serif;
-    --van-dyke: hsla(341, 12%, 26%, 1);
-    --jonquil: hsla(49, 98%, 49%, 1);
-    --coyote: hsla(36, 17%, 44%, 1);
-    --fairy-tale: hsla(338, 30%, 79%, 1);
-    --ghost-white: hsla(240, 100%, 98%, 1);
+    --yinmn-blue: hsl(212, 55%, 53%);
+    --air-superiority-blue: hsla(204, 39%, 55%, 1);
+    --antiflash-white: hsla(202, 20%, 92%, 1);
+    --uranian-blue: hsl(207, 61%, 48%);
+    --silver-2: hsla(197, 15%, 82%, 1);
 }
 
 body {
     /* here we use main-font */
     font-family: var(--main-font);
-    background-color: var(--fairy-tale);
+    background-color:  hsl(205, 33%, 78%);
     margin: 0px;
     min-height: 100vh;
     display: grid;
@@ -21,7 +21,7 @@ body {
 }
 
 .main-header {
-    background-color: var(--van-dyke);
+    background-color: var(--yinmn-blue);
     /* display: flex;
     flex-direction: row;
     justify-content: space-between; */
@@ -31,7 +31,7 @@ body {
 }
 
 .main-navigation a {
-    color: var(--ghost-white);
+    color: var(--antiflash-white);
     text-decoration: none;
     padding: 1em;
 }
@@ -49,7 +49,7 @@ body {
 }
 
 .user-navigation a {
-    color: var(--ghost-white);
+    color: var(--antiflash-white);
     text-decoration: none;
     padding: 1em;
 }
@@ -88,8 +88,8 @@ body {
    padding: 0.8em; 
    border-radius: 0px 5px 5px 0px;
    border-width: 0px;
-   background-color: var(--coyote);
-   color: var(--ghost-white);
+   background-color: var(--uranian-blue);
+   color: var(--antiflash-white);
 }
 
 .sr-only {
@@ -109,7 +109,7 @@ body {
 
 .main-footer {
     padding: 1em;
-    background-color: var(--van-dyke);
+    background-color: var(--yinmn-blue);
 }
 
 .policies {
@@ -117,7 +117,7 @@ body {
     flex-direction: row;
 }
 .policies a {
-    color: var(--ghost-white);
+    color: var(--antiflash-white);
     text-decoration: none;
     padding: 1em;
 }
@@ -127,7 +127,7 @@ body {
     flex-direction: row;
 }
 .social a {
-    color: var(--fairy-tale);
+    color: var(--air-superiority-blue);
     text-decoration: none;
     padding: 1em;
 }
@@ -141,7 +141,7 @@ body {
     width: 30vw;
     margin-left: 10px;
     margin-right: 10px;
-    background-color: var(--jonquil);
+    background-color: var(--silver-2);
     background-size: cover;
     aspect-ratio: 16/6;
     background-position: center;
@@ -149,28 +149,30 @@ body {
     place-items: center;
 }
 .slide h1 {
-    background-color: hsla(240, 100%, 98%, 0.4);
+    background-color: var(--silver-2);
     padding: 1em;
     border-radius: 1em;
     min-width: 6em;
     text-align: center;
 }
 .one {
-    background-image: url("assets/pexels-goumbik-292999.jpg");
+    background-image: url("assets/pexels-micaasato-1580267.jpg");
 }
 .two {
-    background-image: url("assets/pexels-mnzoutfits-1598505.jpg");
+    background-image: url("assets/pexels-pixabay-40662.jpg");
 }
 .three {
-    background-image: url("assets/pexels-mstudio-360817-1240892.jpg");
+    background-image: url("assets/pexels-mnzoutfits-1598508.jpg");
 }
 .four {
-    background-image: url("assets/pexels-oandremoura-2562992.jpg");
+    background-image: url("assets/pexels-pluyar-786003.jpg");
 }
 .five {
-    background-image: url("assets/pexels-pixabay-267320.jpg");
+    background-image: url("assets/pexels-thelazyartist-1667502.jpg");
 }
-
+.six {
+    background-image: url("assets/pexels-webdonut-19090.jpg");
+}
 .content {
     max-width: 80vw;
     margin-left: auto;
@@ -179,7 +181,7 @@ body {
     margin-bottom: 3em;
 }
 .card {
-    background-color: var(--ghost-white);
+    background-color: var(--antiflash-white);
 }
 .card-image {
     aspect-ratio: 1/1;
@@ -191,12 +193,12 @@ body {
     padding: 1em;
 }
 .card-content a {
-    background-color: var(--van-dyke);
+    background-color: var(--yinmn-blue);
     display: block;
     padding: 0.5em;
     text-decoration: none;
     text-align: center;
-    color: var(--ghost-white);
+    color: var(--antiflash-white);
     border-radius: 0.5em;
 }
 .grid-4 {
@@ -220,14 +222,14 @@ body {
 #contact-form input, #contact-form textarea {
     display: block;
     padding: 0.5em;
-    border-color: var(--van-dyke);
+    border-color: var(--yinmn-blue);
     border-width: 1px;
     border-style: solid;
     border-radius: 0.4em;
 }
 #contact-form button {
-    background-color: var(--van-dyke);
-    color: var(--ghost-white);
+    background-color: var(--yinmn-blue);
+    color: var(--antiflash-white);
     padding: 0.5em;
     min-width: 6em;
     margin-top: 1em;
