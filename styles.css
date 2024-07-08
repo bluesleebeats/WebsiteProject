@@ -37,6 +37,9 @@ body {
 .main-navigation a:hover {
     text-decoration: underline;
 }
+.main-navigation a:visited{
+    color: yellow;
+}
 
 .main-navigation {
     font-family: "Lucida Console";
@@ -55,7 +58,6 @@ body {
 }
 
 .user-navigation {
-    font-family: "Lucida Console";
     grid-column-start: 3;
     grid-row-start: 2;
     align-self: end;
